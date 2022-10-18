@@ -1,0 +1,57 @@
+:root {
+    --primary-color: #fedc00;
+    --icon-color: #252525;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    display: grid;
+    grid-template-areas: "content";
+    font-family: 'Ubuntu', 'Sans-Seif';
+    color: white;
+    background-color: black;
+}
+
+header {
+    grid-area: content;
+    height: 100px;
+    z-index: 1;
+    max-width: 1200px;
+    place-self: start center;
+    width: 100%;
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main {
+    grid-area: content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+section {
+    height: 100vh;
+    width: 100%;
+}
+
+.projetos {
+    background-color: cyan;
+}
+
+.contatos {
+    background-color: deepskyblue;
+}
+
+footer {
+    place-self: end start;
+    width: 100%;
+    grid-area: content;
+    height: 100px;
+    background-color: violet;
+}

@@ -4,11 +4,119 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+
+    <!--links de estilização (css)-->
+    <script src="https://kit.fontawesome.com/cb4f3aa626.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- links de import (fonts) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap" rel="stylesheet">
+    <!-- links para  componentes-->
+    <link rel="stylesheet" href="./css/logo.css">
+    <link rel="stylesheet" href="./css/menu.css">
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/sobre-mim.css">
+
     <title>Portifolio</title>
 </head>
 
 <body>
+
+    <header>
+        <div class="logo">
+            Luiz Gustavo
+        </div>
+        <nav class="menu-bar">
+
+            <ul class="lista-menu">
+
+                <li id="li-inicio">
+                    <a href="#">
+                        Início
+                    </a>
+                </li>
+                <li id="li-sobre-mim">
+                    <a href="#sobre-mim">
+                        Sobre-Mim
+                    </a>
+                </li>
+                <li id="li-projetos">
+                    <a href="#projetos">
+                        Projetos
+                    </a>
+                </li>
+                <li id="li-contatos">
+                    <a href="#contatos">
+                        Contatos
+                    </a>
+                </li>
+
+            </ul>
+
+        </nav>
+    </header>
+
+    <main>
+        <!-- Section Para Orginaizar Várias Pagina com Barra de Rolagem -->
+        <section class="home" id="home">
+            <img src="./img/foto-perfil.png" alt="foto-perfil" class="home-photo">
+            <div class="titulo-page">
+                <span class="home-text">Olá meu nome é</span>
+                <h1 class="home-name">Luiz Gustavo</h1>
+                <span class="home-text">e sou desenvolvedor Frontend</span>
+            </div>
+        </section>
+        <section class="sobre-mim" id="sobre-mim">
+            <h2 class="section-title">Sobre Mim</h2>
+            <div class="description">
+                <h3 class="description-title">Quem sou?</h3>
+                <p class="description-text">
+                    Sou iniciante na área de criação e manutenção de sites, tenho conhecimento de prototipação em designer sempre pensando na experiência do úsuario. Sou apaixonado pelo mundo digital,e principalmente desenvolvimento,sempre procurando inspiração nos meus
+                    colegas de trabalho e no mundo que me rodeia.
+                </p>
+            </div>
+            <div class="skills">
+                <h3 class="skills-title">Skills</h3>
+                <div class="skills-icons">
+                    <div class="icon">
+                        <i class="fa-brands fa-html5"></i>
+                        <span class="span-icon">HTML</span>
+                    </div>
+
+                    <div class="icon">
+                        <i class="fa-brands fa-css3-alt"></i>
+                        <span class="span-icon">CSS</span>
+                    </div>
+
+                    <div class="icon">
+                        <i class="fa-brands fa-js"></i>
+                        <span class="span-icon">JS</span>
+                    </div>
+
+                    <div class="icon">
+                        <i class="fa-brands fa-figma"></i>
+                        <span class="span-icon">FIGMA</span>
+                    </div>
+
+                    <div class="icon">
+                        <i class="fa-brands fa-github"></i>
+                        <span class="span-icon">GITHUB</span>
+                    </div>
+
+                    <div class="icon">
+                        <i class="fa-brands fa-java"></i>
+                        <span class="span-icon">JAVA</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="projetos" id="projetos"></section>
+        <section class="contatos" id="contatos"></section>
+    </main>
+
+    <footer>footer</footer>
 
 </body>
 
