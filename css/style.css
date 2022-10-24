@@ -40,18 +40,13 @@ section {
     width: 100%;
 }
 
-.projetos {
-    background-color: cyan;
-}
-
-.contatos {
-    background-color: deepskyblue;
-}
-
 footer {
     place-self: end start;
     width: 100%;
     grid-area: content;
     height: 100px;
-    background-color: violet;
+    display: grid;
+    place-content: center;
+    font-size: 1rem;
+    border-top: 2px solid #fff;
 }
