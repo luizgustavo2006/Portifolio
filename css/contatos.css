@@ -63,3 +63,8 @@
 .contato-title {
     font-size: 1.5rem;
 }
+
+/* TABLET */
+@media (max-width: 960px) {
+    
+}

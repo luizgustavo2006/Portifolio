@@ -9,3 +9,10 @@
     background-clip: text;
     -webkit-background-clip: text;
 }
+
+@media(max-width: 960px) {
+    .section-title{
+       font-size: 10.4rem; 
+       padding-bottom: 20px;
+    }
+}

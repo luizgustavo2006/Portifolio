@@ -45,8 +45,8 @@
 }
 
 .icon {
-    width: 150px;
-    height: 150px;
+    width: 9.4rem;
+    height: 9.4rem;
     background-color: var(--icon-color);
     display: flex;
     flex-direction: column;
@@ -62,4 +62,22 @@
 .icon span {
     font-size: 1.5rem;
     font-weight: 700;
+}
+
+/*Tablet*/
+
+@media(max-width: 960px) {
+    .sobre-mim {
+        max-width: 850px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 70rem;
+    }
+    .skills-icons{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 90px;
+    }
 }

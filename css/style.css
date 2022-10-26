@@ -16,6 +16,10 @@ body {
     background-color: black;
 }
 
+.bar{
+    display: none;
+}
+
 header {
     grid-area: content;
     height: 100px;
@@ -92,6 +96,7 @@ footer {
         display: none;
     }
     .bar {
+        display: inline;
         font-size: 1.6rem;
     }
     .home {
@@ -107,8 +112,5 @@ footer {
     }
     .home h1 {
         font-weight: 400;
-    }
-    .sobre-mim {
-        grid-template-areas: "title title" "description description" "skills skills";
     }
 }
