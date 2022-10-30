@@ -59,3 +59,18 @@
         height: auto;
     }
 }
+
+@media(max-width:640px){
+    .projetos{
+        height: 165rem;
+    }
+    .cards{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .card{
+        display: flex;
+        width: 558px;
+    }
+}

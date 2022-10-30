@@ -25,6 +25,7 @@
     display: flex;
     gap: 32px;
     font-size: 1.5rem;
+    justify-content: center;
 }
 
 .social-icon {
@@ -66,5 +67,44 @@
 
 /* TABLET */
 @media (max-width: 960px) {
-    
+    .contatos{
+        max-width: 800px;
+        width: 100%;
+        display: grid;
+        grid-template-areas: 
+        "title title title"
+        "contato . link"
+        "social social social";
+        grid-template-rows: auto 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    }
+    .social-container{
+        grid-area: social;
+    }
+}
+
+@media(max-width:640px){
+    .contatos{
+        height: 72rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        font-size: 1.5rem;
+    }
+
+    .contato-title{
+        display: none;
+    }
+    .social-container{
+        flex-direction: column;
+    }
+    .social-item{
+        width: 86px;
+        height: 86px;
+        font-size: 56px;
+    }
+    .link-container{
+        text-align: center;
+        padding-bottom: 2rem;
+    }
 }
