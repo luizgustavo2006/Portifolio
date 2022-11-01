@@ -1,6 +1,6 @@
 # Portifolio
 
-![img](./img/desktop.png)
+![img](./img/site.png)
 
 ---
 
