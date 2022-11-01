@@ -45,31 +45,36 @@
 }
 
 @media(max-width: 960px) {
-    .projetos{
+    .projetos {
         height: 200rem;
     }
-
-    .cards{
+    .cards {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    .card{
+    .card {
         width: 670px;
         height: auto;
     }
+    .card:hover::before {
+        display: none;
+    }
+    .card::before {
+        display: none;
+    }
 }
 
-@media(max-width:640px){
-    .projetos{
+@media(max-width:640px) {
+    .projetos {
         height: 165rem;
     }
-    .cards{
+    .cards {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    .card{
+    .card {
         display: flex;
         width: 558px;
     }
