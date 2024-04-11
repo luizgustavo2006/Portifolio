@@ -19,3 +19,8 @@
     color: var(--primary-color);
     font-weight: 700;
 }
+
+.home-photo {
+    width: 250px;
+    border-radius: 100%;
+}
